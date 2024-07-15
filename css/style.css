@@ -87,3 +87,8 @@ main{
     box-shadow: -2px 3px 0 #333, -3px 6px 0 #000;
     border-radius: 5px;
 }
+
+button:active{
+    box-shadow: inset 4px 4px 0 #2e2e2e;
+    font-size: 0.9rem;
+}
