@@ -1,19 +1,21 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Fira Sans";
 }
 
-
+/* BACKGROUND DO BODY */
 body{
     text-align: center;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/957/704/964/pokemon-fields-ruby-1920x1200-nature-fields-hd-art-wallpaper-preview.jpg);
     background-size: cover;
     min-height: 100vh;
 }
+
+/* DIMENSÕES DO MAIN */
 main{
     display: inline-block;
     margin-top: 3%;
@@ -21,11 +23,13 @@ main{
     position: relative;
 }
 
+/* TAMANHO DA POKEDEX */
 .pokedex{
     width: 100%;
     max-width: 425px;
 }
 
+/* ESTILO DA IMAGEM */
 .pokemon_img{
     position: absolute;
     left: 50%;
@@ -34,6 +38,8 @@ main{
     height: 18%;
 }
 
+
+/* ESTILO DOS DADOS */
 .pokemon-data{
     position: absolute;
     font-weight: 500;
@@ -43,11 +49,13 @@ main{
     font-size: clamp(8px, 5vw, 25px);
 }
 
+/* ESTILO DO H1 */
 .pokemon_name{
     color: #222020d7;
     text-transform: capitalize;
 }
 
+/* POSIÇÃO DA DO INPUT */
 .form{
     position: absolute;
     width: 65%;
@@ -55,6 +63,7 @@ main{
     left: 13.5%;
 }
 
+/* ESTILO DO INPUT */
 .input_search{
     width: 100%;
     padding: 4%;
@@ -67,6 +76,7 @@ main{
     box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
 }
 
+/* ESTILO DOS BOTÕES */
 .buttons{
     position: absolute;
     bottom: 10%;
