@@ -10,7 +10,8 @@
 
 body{
     text-align: center;
-    background: linear-gradient(to bottom, #2243CA, #ffff);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/957/704/964/pokemon-fields-ruby-1920x1200-nature-fields-hd-art-wallpaper-preview.jpg);
+    background-size: cover;
     min-height: 100vh;
 }
 main{
